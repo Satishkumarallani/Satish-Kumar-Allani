@@ -83,10 +83,10 @@
   }
   .hero-side{font-size:15.5px;line-height:1.7;color:var(--muted);padding-bottom:6px}
   .portrait{
-    display:block;width:100%;max-width:300px;aspect-ratio:1/1;border-radius:14px;
-    object-fit:cover;margin:0 0 28px;
+    display:block;width:280px;height:280px;max-width:100%;border-radius:50%;
+    object-fit:cover;margin:0 auto 28px;
     box-shadow:0 18px 40px rgba(18,34,42,.2);
-    outline:1px solid var(--rule);
+    border:4px solid var(--paper);outline:1px solid var(--rule);
   }
 
   .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
@@ -233,6 +233,7 @@
     .brand-title{display:none}
     .book{grid-template-columns:1fr;gap:22px;justify-items:start}
     .book-cover{width:150px}
+    .portrait{width:220px;height:220px;margin:0 0 24px}
     .pub{grid-template-columns:1fr;gap:0}
     .pub::before{display:none}
     .contact-inner{flex-direction:column;align-items:flex-start}
@@ -408,10 +409,10 @@
         <ol class="pubs">
           <li class="pub" data-anim="1">
             <div>
-              <h3 class="pub-title">AI-Augmented Patch Prioritization and Zero-Day Response: A Risk-Based Governance Framework for Enterprise Environments<span class="role-tag lead">Lead author</span></h3>
+              <h3><a class="pub-title" href="assets/AI-Augmented-Patch-Prioritization-Allani.pdf" target="_blank" rel="noopener">AI-Augmented Patch Prioritization and Zero-Day Response: A Risk-Based Governance Framework for Enterprise Environments</a><span class="role-tag lead">Lead author</span></h3>
               <p class="pub-venue">ISACA · 2026</p>
               <div class="pub-links">
-                <!-- TODO: add ISACA article URL or PDF when available -->
+                <a href="assets/AI-Augmented-Patch-Prioritization-Allani.pdf" target="_blank" rel="noopener">PDF →</a>
               </div>
             </div>
           </li>
@@ -459,10 +460,10 @@
 
           <li class="pub" data-anim="6">
             <div>
-              <h3 class="pub-title">CyberFuse-CL: Adversarially Resilient Vulnerability Detection Through Heterogeneous Multi-Source Data Fusion and LLM-Augmented Reasoning<span class="role-tag co">Co-author</span></h3>
+              <h3><a class="pub-title" href="assets/CyberFuse-CL-Allani.pdf" target="_blank" rel="noopener">CyberFuse-CL: Adversarially Resilient Vulnerability Detection Through Heterogeneous Multi-Source Data Fusion and LLM-Augmented Reasoning</a><span class="role-tag co">Co-author</span></h3>
               <p class="pub-venue">ICETCI 2026 · under review</p>
               <div class="pub-links">
-                <!-- TODO: promote to "accepted" + add link once decision lands -->
+                <a href="assets/CyberFuse-CL-Allani.pdf" target="_blank" rel="noopener">PDF →</a>
               </div>
             </div>
           </li>
