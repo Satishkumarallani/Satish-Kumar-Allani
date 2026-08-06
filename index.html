@@ -82,6 +82,12 @@
     font:500 15px/1.6 "Instrument Sans",sans-serif;color:var(--muted);
   }
   .hero-side{font-size:15.5px;line-height:1.7;color:var(--muted);padding-bottom:6px}
+  .portrait{
+    display:block;width:104px;height:104px;border-radius:50%;
+    object-fit:cover;margin:0 0 22px;
+    box-shadow:0 10px 26px rgba(18,34,42,.18);
+    border:3px solid var(--paper);outline:1px solid var(--rule);
+  }
 
   .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
   .btn{
@@ -267,6 +273,8 @@
       <p class="hero-title" data-anim="3">Manager, End User Support &amp; IT Service Delivery · IEEE Senior Member · Author</p>
     </div>
     <div class="hero-side" data-anim="4">
+      <img class="portrait" src="assets/satish.jpg" width="480" height="480"
+           alt="Portrait of Satish Kumar Allani">
       I lead the operations layer where security actually happens — patching, hardening, escalation, and audit-readiness across 30,000+ endpoints in healthcare, government, and global enterprise.
       <div class="btn-row">
         <a class="btn btn-solid" href="mailto:satishkumarallani@gmail.com">Get in touch</a>
@@ -523,6 +531,7 @@
   "@context":"https://schema.org",
   "@type":"Person",
   "name":"Satish Kumar Allani",
+  "image":"https://allani.org/assets/satish.jpg",
   "jobTitle":"Manager, End User Support & IT Service Delivery",
   "worksFor":{"@type":"Organization","name":"YASH Technologies"},
   "email":"mailto:satishkumarallani@gmail.com",
