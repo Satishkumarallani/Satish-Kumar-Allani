@@ -181,6 +181,11 @@
   a.pub-title{color:var(--ink)}
   a.pub-title:hover{color:var(--blue)}
   .pub-venue{font-size:14px;color:var(--muted);margin-top:7px;line-height:1.55}
+  .pub-meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:11px}
+  .status{font:600 10.5px "IBM Plex Mono",monospace;letter-spacing:.05em;border-radius:999px;padding:4px 11px;white-space:nowrap}
+  .status.pub{background:#E7F6EF;color:#08875D;border:1px solid rgba(18,183,106,.28)}
+  .status.rev{background:#FEF3E2;color:#B54708;border:1px solid rgba(245,158,11,.3)}
+  .topic{font:500 11px "IBM Plex Mono",monospace;background:var(--bg);border:1px solid var(--line-strong);border-radius:999px;padding:4px 11px;color:#344054;white-space:nowrap}
   .profiles{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13.5px;color:var(--body)}
   .chip{display:inline-block;border-radius:999px;padding:8px 16px;font:600 13px "IBM Plex Mono",monospace;background:#fff;border:1px solid var(--line-strong);color:#344054;transition:background .2s,color .2s}
   a.chip:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
@@ -458,6 +463,7 @@
         <div>
           <h3><a class="pub-title" href="https://www.isaca.org/resources/isaca-journal/issues/2026/volume-5/harnessing-ai-for-patch-prioritization-and-zero-day-response" target="_blank" rel="noopener">Harnessing AI for Patch Prioritization and Zero-Day Response</a><span class="role-tag lead">Lead author</span></h3>
           <p class="pub-venue">ISACA Journal · 2026, Volume 5</p>
+          <div class="pub-meta"><span class="status pub">PUBLISHED</span><span class="topic">Patch Management</span><span class="topic">AI</span><span class="topic">Zero-Day Response</span></div>
           <div class="pub-links"><a href="https://www.isaca.org/resources/isaca-journal/issues/2026/volume-5/harnessing-ai-for-patch-prioritization-and-zero-day-response" target="_blank" rel="noopener">Read on ISACA →</a></div>
         </div>
       </li>
@@ -465,6 +471,7 @@
         <div>
           <h3><a class="pub-title" href="https://cspub-ijcisim.org/index.php/ijcisim/article/view/4165" target="_blank" rel="noopener">The Global Ransomware Epidemic: Evaluating the Economic and Clinical Toll on Low- and Middle-Income Country Healthcare Systems</a><span class="role-tag lead">Lead author</span></h3>
           <p class="pub-venue">International Journal of Computer Information Systems and Industrial Management Applications (IJCISIM) · Vol. 18, No. 2 · 2026</p>
+          <div class="pub-meta"><span class="status pub">PUBLISHED</span><span class="topic">Ransomware</span><span class="topic">Healthcare Security</span><span class="topic">Risk</span></div>
           <div class="pub-links">
             <a href="https://cspub-ijcisim.org/index.php/ijcisim/article/view/4165" target="_blank" rel="noopener">View article →</a>
             <a href="https://cspub-ijcisim.org/index.php/ijcisim/article/view/4165/3352" target="_blank" rel="noopener">PDF →</a>
@@ -475,6 +482,7 @@
         <div>
           <h3><a class="pub-title" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513159" target="_blank" rel="noopener">Medical Device Defence: Closing the Vulnerability Gap in Hospital Environments</a><span class="role-tag lead">Lead author</span></h3>
           <p class="pub-venue">SSRN · 2026</p>
+          <div class="pub-meta"><span class="status pub">PUBLISHED</span><span class="topic">Medical Devices</span><span class="topic">Vulnerability Management</span><span class="topic">Healthcare Security</span></div>
           <div class="pub-links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6513159" target="_blank" rel="noopener">Read on SSRN →</a></div>
         </div>
       </li>
@@ -482,6 +490,7 @@
         <div>
           <h3><a class="pub-title" href="https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=6619784" target="_blank" rel="noopener">Extended Security Update Governance in Healthcare: Managing End-of-Life Windows Environments Under HIPAA and CISA Compliance Mandates</a><span class="role-tag lead">Lead author</span></h3>
           <p class="pub-venue">SSRN · 2026</p>
+          <div class="pub-meta"><span class="status pub">PUBLISHED</span><span class="topic">HIPAA</span><span class="topic">Windows EOL</span><span class="topic">CISA Compliance</span></div>
           <div class="pub-links"><a href="https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=6619784" target="_blank" rel="noopener">Read on SSRN →</a></div>
         </div>
       </li>
@@ -489,13 +498,15 @@
         <div>
           <h3><a class="pub-title" href="https://ieeexplore.ieee.org/document/11604842" target="_blank" rel="noopener">The Metamorphosis of Access: Strategic Imperatives for Identity 3.0 and Zero Trust Integration in Critical Infrastructure</a><span class="role-tag co">Co-author</span></h3>
           <p class="pub-venue">IEEE SmartNets 2026 (CyberSec CIIA)</p>
+          <div class="pub-meta"><span class="status pub">PUBLISHED</span><span class="topic">Zero Trust</span><span class="topic">Identity 3.0</span><span class="topic">Critical Infrastructure</span></div>
           <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/11604842" target="_blank" rel="noopener">IEEE Xplore →</a></div>
         </div>
       </li>
       <li class="pub">
         <div>
           <h3 class="pub-title">CyberFuse-CL: Adversarially Resilient Vulnerability Detection Through Heterogeneous Multi-Source Data Fusion and LLM-Augmented Reasoning<span class="role-tag co">Co-author</span></h3>
-          <p class="pub-venue">ICETCI 2026 · under review</p>
+          <p class="pub-venue">ICETCI 2026</p>
+          <div class="pub-meta"><span class="status rev">UNDER REVIEW</span><span class="topic">LLM Security</span><span class="topic">Vulnerability Detection</span><span class="topic">Data Fusion</span></div>
         </div>
       </li>
     </ol>
